@@ -1,9 +1,12 @@
 import Layout from "~/components/Layout";
+import Features from "~/components/pages/Home/Features";
+import Hero from "~/components/pages/Home/Hero";
 
 export default function Home() {
   return (
     <Layout>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Hero />
+      <Features />
     </Layout>
   );
 }
