@@ -19,7 +19,7 @@ export default function CTAImage() {
               <div></div>
               <div className="text-center lg:text-left">
                 <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-8">
-                  ¿Estás listo para comenzar a publicar?
+                  ¿Estás listo para dar a conocer tu mensaje?
                 </h2>
                 <CTAButton />
               </div>
