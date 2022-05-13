@@ -13,7 +13,7 @@ export default function Navigator() {
   }
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-neutral-200 bg-white/60 backdrop-blur-md">
+    <nav className="top-0 z-50 border-b border-neutral-200 bg-white/60 backdrop-blur-md">
       <Container>
         <div className="container flex flex-wrap justify-between items-center mx-auto pt-6 pb-6">
           <BrandName />
