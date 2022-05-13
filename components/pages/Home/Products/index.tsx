@@ -90,7 +90,7 @@ export default function Products() {
         </div>
         <div className="grid md:grid-cols-3 md:gap-x-12">
           {PRODUCTS.map((product) => (
-            <div>
+            <div className='mb-16'>
               <div className="text-center">
                 <p className="text-base text-green-600 font-semibold tracking-wide uppercase">
                   {product.description}
@@ -117,7 +117,7 @@ export default function Products() {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center">
           <CTAButton />
         </div>
       </Container>
