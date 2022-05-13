@@ -81,7 +81,7 @@ const PRODUCTS = [
 
 export default function Products() {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-neutral-50">
       <Container>
         <div className="max-w-lg mx-auto">
           <h2 className="text-center text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-20">
