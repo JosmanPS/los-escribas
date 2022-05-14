@@ -45,7 +45,7 @@ export default function Pricing() {
         <h2 className="text-center text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           Planes y precios
         </h2>
-        <p className="text-center mt-8 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+        <p className="text-center mt-6 max-w-2xl text-xl text-gray-500 lg:mx-auto">
           Selecciona el plan que más se adecúe a tus necesidades
         </p>
         <div className="grid lg:grid-cols-3 mt-20 mb-12 lg:gap-x-8 gap-y-8">
