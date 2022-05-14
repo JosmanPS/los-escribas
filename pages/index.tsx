@@ -6,6 +6,7 @@ import Process from "~/components/pages/Home/Process";
 import Products from "~/components/pages/Home/Products";
 import Pricing from "~/components/pages/Home/Pricing";
 import Contact from "~/components/pages/Home/Contact";
+import CTAImageCustom from "~/components/pages/Home/CTAImageCustom";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Process />
       <Products />
       <Pricing />
+      <CTAImageCustom />
       <Contact />
     </Layout>
   );
