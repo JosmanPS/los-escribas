@@ -100,7 +100,7 @@ export default function Products() {
                 </h3>
               </div>
               {product.media.map((media) => (
-                <div className="flex flex-row md:flex-col mt-12">
+                <div className="flex flex-col mt-12">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-br from-green-500 to-lime-500 text-white mb-4 mr-4">
                     <media.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
