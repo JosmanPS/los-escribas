@@ -39,11 +39,12 @@ export default function Navigator() {
               <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                 {links.map((link) => (
                   <li>
-                    <NavLink href={link.href}>
-                      {link.text}
-                    </NavLink>
+                    <NavLink href={link.href}>{link.text}</NavLink>
                   </li>
                 ))}
+                <li>
+                  <CTAButtonSm />
+                </li>
               </ul>
             </div>
           )}
