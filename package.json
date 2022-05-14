@@ -7,6 +7,8 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "@formspree/react": "^2.2.5",
     "@heroicons/react": "^1.0.6",
     "next": "latest",
     "react": "^17.0.2",
