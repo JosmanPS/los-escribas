@@ -121,7 +121,7 @@ export default function ContactForm() {
           </div>
           <button
             type="submit"
-            className="w-full rounded-md bg-green-600 text-white py-3 text-base font-medium"
+            className="w-full rounded-md bg-green-600 hover:bg-green-700 text-white py-3 text-base font-medium md:text-lg"
             disabled={state.submitting}
           >
             Enviar

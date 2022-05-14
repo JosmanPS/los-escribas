@@ -4,6 +4,7 @@ import Container from '../Container'
 import NavLink from './NavLink'
 import ToggleButton from './ToggleButton'
 import links from './links'
+import CTAButtonSm from '../pages/Home/CTAButtonSm'
 
 export default function Navigator() {
   const [showMobileNav, setShowMobileNav] = useState(false)
@@ -28,6 +29,9 @@ export default function Navigator() {
                   <NavLink href={link.href}>{link.text}</NavLink>
                 </li>
               ))}
+              <li>
+                <CTAButtonSm />
+              </li>
             </ul>
           </div>
           {showMobileNav && (
