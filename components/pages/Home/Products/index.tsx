@@ -1,13 +1,20 @@
 import React from 'react'
 import Container from '~/components/Container'
 import { FaTwitter, FaFacebook, FaInstagram, FaMedium } from 'react-icons/fa'
-import { HiBookmarkAlt, HiBookOpen, HiDocumentText, HiGlobeAlt, HiNewspaper, } from 'react-icons/hi'
+import {
+  HiBookmarkAlt,
+  HiBookOpen,
+  HiDocumentText,
+  HiGlobeAlt,
+  HiNewspaper,
+} from 'react-icons/hi'
 import CTAButton from '../CTAButton'
 
 const PRODUCTS = [
   {
     name: 'Micro-ensayos',
-    description: '250-500 palabras',
+    words: '250-500 palabras',
+    description: 'Perfecto para publicaciones de consumo rápido en redes sociales',
     media: [
       {
         title: 'Hilos de Twitter',
@@ -31,7 +38,8 @@ const PRODUCTS = [
   },
   {
     name: 'Blog posts',
-    description: '800-1200 palabras',
+    words: '800-1200 palabras',
+    description: 'Lecturas de hasta 10 minutos que te ayudarán a conectar con tu audiencia',
     media: [
       {
         title: 'Sitio web personal',
@@ -55,7 +63,8 @@ const PRODUCTS = [
   },
   {
     name: 'Artículos',
-    description: '2500-5000 palabras',
+    words: '2500-5000 palabras',
+    description: 'Tendrás contenido premium para aquellos que están buscando más',
     media: [
       {
         title: 'eBooks',
@@ -90,14 +99,17 @@ export default function Products() {
         </div>
         <div className="grid md:grid-cols-3 md:gap-x-12">
           {PRODUCTS.map((product) => (
-            <div className='mb-16'>
+            <div className="mb-16">
               <div className="text-center">
                 <p className="text-base text-green-600 font-semibold tracking-wide uppercase">
-                  {product.description}
+                  {product.words}
                 </p>
                 <h3 className="text-gray-900 text-2xl font-medium">
                   {product.name}
                 </h3>
+                <p className="mt-2 text-base text-gray-500 max-w-sm mx-auto">
+                  {product.description}
+                </p>
               </div>
               {product.media.map((media) => (
                 <div className="flex flex-col mt-12">
