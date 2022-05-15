@@ -6,7 +6,7 @@ const PRICING_PLANS = [
   {
     name: 'Starter',
     description: 'Para aquellos que están comenzando.',
-    price: 297,
+    price: 250,
     features: [
       '1 tweet diario',
       '1 micro-ensayo por semana',
@@ -16,7 +16,7 @@ const PRICING_PLANS = [
   {
     name: 'Pro',
     description: 'Crea una audiencia conectada con tu mensaje.',
-    price: 597,
+    price: 500,
     features: [
       '2 tweets diarios',
       '2 micro-ensayos por semana',
@@ -27,7 +27,7 @@ const PRICING_PLANS = [
   {
     name: 'Growth+',
     description: 'Conviértete en un autor con tu mensaje.',
-    price: 997,
+    price: 850,
     features: [
       '3 tweets diarios',
       '3 micro-ensayos por semana',
